@@ -1,0 +1,26 @@
+[package]
+name = "vers-basic-example"
+version = "0.0.1"
+description = ""
+edition.workspace = true
+authors.workspace = true
+readme.workspace = true
+license.workspace = true
+homepage.workspace = true
+repository.workspace = true
+documentation.workspace = true
+keywords.workspace = true
+include.workspace = true
+exclude.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+
+vers-engine.workspace = true
+winit.workspace = true
+
+[dev-dependencies]
+
+[lints]
+workspace = true
