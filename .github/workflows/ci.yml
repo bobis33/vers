@@ -1,5 +1,5 @@
-name: 'CI - RustEngine'
-run-name: 'RustEngine - "${{ github.ref_name }}"'
+name: 'CI - VEngineRS'
+run-name: 'VEngineRS - "${{ github.ref_name }}"'
 permissions:
   contents: read
 on:
@@ -49,7 +49,7 @@ jobs:
         uses: Swatinem/rust-cache@v2.8.2
 
       - name: Build
-        run: cargo build
+        run: cargo check
 
       - name: Run tests
         run: cargo test

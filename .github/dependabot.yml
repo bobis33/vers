@@ -18,7 +18,10 @@ updates:
           - "*"
 
   - package-ecosystem: "cargo"
-    directory: "/"
+    directories:
+      - "/"
+      - "./crates/"
+      - "./examples/"
     schedule:
       interval: "daily"
       time: "05:00"
